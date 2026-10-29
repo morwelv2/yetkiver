@@ -1,0 +1,9 @@
+name: YetkiVerPlugin
+version: 1.0
+main: com.yetkiver.YetkiVer
+api-version: '1.21'
+commands:
+  yetkiver:
+    description: Oyunculara yetki verir ve OP'lere bildirir.
+    permission: op
+    usage: /yetkiver <oyuncu> <yetki>
